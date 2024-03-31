@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%; 
+    margin-top: 20px; 
+    background-color: #f3f3f3
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="password"],
+.form input[type="submit"] {
+    font-size: 16px; 
+    padding: 10px;
+    margin: 5px 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.form input[type="submit"] {
+    background-color: orange; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.option-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.option-group label {
+    font-size: 18px; 
+    margin-right: 10px;
+}
+
+.option-group img {
+    width: 120px; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+.pizza-option-group img {
+    width: auto; 
+    height: 100px; 
+    margin-left: 10px; 
+    object-fit: cover; 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.important-note {
+    font-weight: bold;
+    color: purple;
+}
+
+.error-message {
+    color: red;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.success-message {
+    color: green;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+}
